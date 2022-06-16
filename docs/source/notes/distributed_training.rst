@@ -18,7 +18,7 @@ performing the same work, so inspecting the rank zero is sufficient to
 reason about memory, performance, and other properties.
 
 Within Composer, we have two options for data-parallelism-only
-execution: `Pytorch DDP`_` and `DeepSpeed Zero`_. We currently default to
+execution: `Pytorch DDP`_ and `DeepSpeed Zero`_. We currently default to
 Pytorch DDP, though DeepSpeed Zero can provide better performance and
 lower memory utilization when configured correctly.
 
@@ -28,10 +28,10 @@ Usage
 
 To launch a multi-GPU training job, we provide the ``composer`` launcher:
 
-.. code:: python
+.. code:: console
 
     # run training on 8 GPUs
-    >>> composer -n 8 my_training_script.py
+    composer -n 8 my_training_script.py
 
 Under the hood, this script (`source code
 here <https://github.com/mosaicml/composer/blob/dev/composer/cli/launcher.py>`__)

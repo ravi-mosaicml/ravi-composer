@@ -3,13 +3,13 @@
 
 ``Composer`` is available with pip:
 
-.. code-block::
+.. code-block:: console
 
     pip install mosaicml
 
 as well as with Anaconda:
 
-.. code-block::
+.. code-block:: console
 
     conda install -c mosaicml mosaicml
 
@@ -27,7 +27,7 @@ the following installation targets are available:
 
 For a developer install, clone directly:
 
-.. code-block::
+.. code-block:: console
 
     git clone https://github.com/mosaicml/composer.git
     cd composer
@@ -39,7 +39,7 @@ For a developer install, clone directly:
     For fast loading of image data, we **highly** recommend installing
     `Pillow-SIMD <https://github.com/uploadcare/pillow-simd>`_\.  To install, vanilla pillow must first be uninstalled.
 
-    .. code-block::
+    .. code-block:: console
 
         pip uninstall pillow && pip install pillow-simd
 

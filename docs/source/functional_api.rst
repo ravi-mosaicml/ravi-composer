@@ -4,9 +4,9 @@
 The simplest way to use Composer's algorithms is via the functional API. Composer's
 algorithms can be grouped into three, broad classes:
 
-- `data augmentations` add additional transforms to the training data.
-- `model surgery` algorithms modify the network architecture.
-- `training loop modifications` change the logic in the training loop.
+- *data augmentations* add additional transforms to the training data.
+- *model surgery* algorithms modify the network architecture.
+- *training loop modifications* change the logic in the training loop.
 
 Data augmentations can be inserted either into the dataloader as a transform or after a
 batch has been loaded, depending on what the augmentation acts on. Here is an example of using

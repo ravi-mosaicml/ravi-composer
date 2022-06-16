@@ -31,7 +31,7 @@ Composer dataloaders have type :class:`torch.utils.data.DataLoader`
         shuffle=True
     )
 
-    trainer = Trainer(..., train_dataloader=train_dataloader, ...)
+    trainer = Trainer(..., train_dataloader=train_dataloader)
 
 .. note::
 
@@ -89,7 +89,7 @@ For these and other potential uses cases, the trainer can also accept the
         get_num_tokens_in_batch=lambda batch: batch['text'].shape[0]
     )
 
-    trainer = Trainer(train_dataloader=data_spec, ...)
+    trainer = Trainer(train_dataloader=data_spec)
 
 Examples of how |DataSpec| is used for popular datasets can be seen in
 our `ImageNet`_ and `ADE20k`_ files. For reference, the |DataSpec| arguments

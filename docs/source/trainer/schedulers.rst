@@ -26,8 +26,6 @@ For PyTorch schedulers, we step every epoch by default. To instead step every ba
 Our experiments have shown better accuracy using stepwise schedulers, so
 it is the recommended setting in most cases.
 
-.. _Composer Schedulers:
-
 Composer Schedulers
 -------------------
 
@@ -83,8 +81,6 @@ Below are the supported schedulers found at :mod:`composer.optim.scheduler`.
     Compared to PyTorch schedulers, :class:`.ComposerScheduler` need not be provided
     an optimizer directly. The trainer will handle binding the optimizer when
     it compiles the scheduler later.
-
-.. _Scale Schedule Ratio:
 
 Scale Schedule Ratio
 --------------------

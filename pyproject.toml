@@ -1026,3 +1026,25 @@ overgeneral-exceptions="BaseException,Exception"
 convention="google"
 add_ignore="D102,D105,D107,D401"
 add_select="D400,D404"
+
+[tool.rstcheck]
+ignore_directives=[
+    'testsetup',
+    'doctest',
+    'testcode',
+    'testcleanup',
+    'autoclass',
+    'autosummary',
+    'automodule',
+    'argparse',
+    'panels',
+]
+# Rstcheck does not pick up on many emoij substitutions, so disable this check
+ignore_messages=[
+    'Undefined substitution referenced',
+    'Substitution definition .* empty or invalid',
+    'Error in "include" directive',
+    # TODO(ravi): Fix the following errors; skipping them for now
+    'Duplicate implicit target name: "composer"',
+    ' Hyperlink target "distributed-training" is not referenced.',
+]

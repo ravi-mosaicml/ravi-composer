@@ -54,7 +54,6 @@ can be specified as in the following example:
     trainer = Trainer(
         ...,
         eval_dataloader=[glue_mrpc_task, glue_mnli_task],
-        ...
     )
 
 In this case, the metrics from :meth:`.ComposerModel.metrics` will be ignored

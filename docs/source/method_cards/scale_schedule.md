@@ -64,7 +64,7 @@ Scale schedule supports all Composer Schedulers:
 ```
 
 ```{eval-rst}
-.. seealso:: The :ref:`Scheduling Guide <Composer Schedulers>` more information about Composer Schedulers.
+.. seealso:: The `Scheduling Guide <Composer Schedulers>`_ more information about Composer Schedulers.
 ```
 
 Scale schedule also supports the following PyTorch Schedulers:
@@ -100,7 +100,7 @@ For example, the code below will scale the training time by half
     )
 ```
 
-For additional details on using the scale schedule ratio, see the {ref}`Scale Schedule Ratio <Scale Schedule Ratio>`
+For additional details on using the scale schedule ratio, see the `Scale Schedule Ratio <Scale Schedule Ratio>`_
 section in the schedulers guide.
 
 ## Suggested Hyperparameters

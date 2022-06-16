@@ -4,7 +4,7 @@
 """Helper methods for :mod:`torch.distributed`.
 
 To use :mod:`torch.distributed`, launch your training script with the
-:ref:`composer launcher for distributed training <distributed-training>`. For example,
+`composer launcher for distributed training <distributed-training>`_. For example,
 the following command launches an eight-process training run.
 
 .. code-block::

@@ -153,8 +153,7 @@ class BlurMaxPool2d(nn.Module):
     See :func:`~blurmax_pool2d` for details.
     """
 
-    # based on https://pytorch.org/docs/stable/_modules/torch/nn/modules/pooling.html#MaxPool2d # noqa
-
+    # based on https://pytorch.org/docs/stable/_modules/torch/nn/modules/pooling.html#MaxPool2d
     def __init__(self,
                  kernel_size: _size_2_t,
                  stride: Optional[_size_2_t] = None,

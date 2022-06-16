@@ -100,7 +100,7 @@ To compute metrics during training, implement the following methods:
 
 .. code:: python
 
-   def validate (self, batch) -> outputs, targets:
+   def validate(self, batch) -> Tuple[outputs, targets]:
        ...
 
    def metrics(self, train=False) -> Metrics:
@@ -187,8 +187,8 @@ Integrations
 
 
 
-TIMM
-~~~~
+TIMM Models
+~~~~~~~~~~~
 
 Integrate with your favorite `TIMM`_ models with our :class:`.TIMM` class.
 
@@ -228,4 +228,3 @@ and make it compatible with our trainer.
 .. |loss| replace:: :meth:`~.ComposerModel.loss`
 .. _Transformers: https://huggingface.co/docs/transformers/index
 .. _TIMM: https://fastai.github.io/timmdocs/
-.. _torchvision: https://pytorch.org/vision/stable/models.html

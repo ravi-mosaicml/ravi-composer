@@ -1,8 +1,6 @@
 |:gear:| Using the Trainer
 ==========================
 
-.. _using_composer_trainer:
-
 The Composer :class:`.Trainer` implements a highly-optimized PyTorch training loop for neural networks. Using the trainer gives you several superpowers:
 
 -  Easily insert our library of efficiency methods into the
@@ -431,8 +429,8 @@ points during training and (2) load them back to resume training later.
         max_duration='160ep',
         device='gpu',
         # Checkpointing params
-        save_folder: 'checkpoints',
-        save_interval: '1ep'
+        save_folder='checkpoints',
+        save_interval='1ep',
     )
 
     # will save checkpoints to the 'checkpoints' folder every epoch

@@ -5,7 +5,7 @@ Composer
 
 `Composer <https://github.com/mosaicml/composer>`_ is a library for training neural networks better, faster, and cheaper.
 It contains many state-of-the-art methods for accelerating neural network training and improving generalization, along with
-an optional :doc:`Trainer<trainer/using_the_trainer>` API that makes `composing` many different enhancements easy.
+an optional :doc:`Trainer<trainer/using_the_trainer>` API that makes *composing* many different enhancements easy.
 
 We implemented dozens of papers and `trained thousands of models <https://app.mosaicml.com/explorer/imagenet>`_ so you don't have to,
 and built strong baselines to rigorously measure their effect.
@@ -31,7 +31,7 @@ to our trainer, and :doc:`trainer/algorithms` for details about our efficiency m
 
 At `MosaicML <https://mosaicml.com>`_, we are focused on making fast, high-quality ML training accessible to everyone. To do this,
 we continually productionize state-of-the-art academic research on efficient model
-training, and also study the `combinations` of these methods in order to ensure
+training, and also study the *combinations* of these methods in order to ensure
 that model training is ✨ as efficient as possible ✨.
 
 If you have any questions, please feel free to reach out to us on `Twitter`_, `Email`_, or `Slack`_!
