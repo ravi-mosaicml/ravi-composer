@@ -103,5 +103,20 @@ repos:
             metadata.kernelspec metadata.language_info.version
             cell.metadata.heading_collapsed metadata.name metadata.nbconvert_exporter
             metadata.version
+  - repo: https://github.com/rstcheck/rstcheck
+    rev: v6.0.0.post1
+    hooks:
+      - id: rstcheck
+        additional_dependencies: [sphinx,toml]
+  - repo: https://github.com/pre-commit/pygrep-hooks
+    rev: v1.9.0  # Use the ref you want to point at
+    hooks:
+    -   id: python-check-blanket-noqa
+    -   id: python-check-mock-methods
+    -   id: python-no-log-warn
+    -   id: rst-backticks
+    -   id: rst-directive-colons
+    -   id: rst-inline-touching-normal
+    -   id: text-unicode-replacement-char
 
 exclude: .ci\/release_tests\/.*
